@@ -1,5 +1,18 @@
-<h1>{{nombre}}</h1>
+<app-menu></app-menu>
 
-<button (click)="mostrarNombre()">
-  Cambiar nombre
-</button>
+<router-outlet></router-outlet>
+<!-- <div class="text-layout">
+  <h1> {{nombre | titlecase}} </h1>
+  <h1> {{valor | number}} </h1>
+  <h1> {{obj | json}} </h1>
+
+</div>
+  
+<button pButton class="p-button-raised p-button-rounded p-button-warning" icon="pi pi-heart" iconPos="right" label="Cambiar nombre" (click)="mostrarNombre()"></button>
+
+<br><br>
+<p-card [header]="nombre | titlecase"
+  subheader="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed exercitationem expedita
+  quam eos in itaque ipsa asperiores ratione, accusamus harum temporibus. Commodi,
+  quos magni quam modi molestias blanditiis tempora fuga!">
+</p-card> -->
