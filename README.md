@@ -1,6 +1,6 @@
 # PipesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+This project is used to learn about all the pipes that come by default in angular as well as to learn the essentials of how to create custom pipes in angular and apart from learning how to use the PrimeNG API generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
 ## Development server
 
